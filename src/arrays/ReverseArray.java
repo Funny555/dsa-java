@@ -1,12 +1,11 @@
-package arrays;
 
 public class ReverseArray {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5};
+        int[] arr = { 1, 2, 3, 4, 5 };
 
         int l = 0, r = arr.length - 1;
 
-        while(l < r){
+        while (l < r) {
             int temp = arr[l];
             arr[l] = arr[r];
             arr[r] = temp;
@@ -14,7 +13,7 @@ public class ReverseArray {
             r--;
         }
 
-        for(int x : arr){
+        for (int x : arr) {
             System.out.print(x + " ");
         }
     }
