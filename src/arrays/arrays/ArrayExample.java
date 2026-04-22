@@ -22,7 +22,7 @@ public class ArrayExample {
             // Checking elements
             int temp = 0;
 
-            if (arr[j]< arr[i]) {
+            if (arr[j] < arr[i]) {
                 temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
